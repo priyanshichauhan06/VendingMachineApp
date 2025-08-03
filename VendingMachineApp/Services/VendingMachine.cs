@@ -1,4 +1,4 @@
-﻿using VendingMachineApp.Common;
+using VendingMachineApp.Common;
 using VendingMachineApp.Interfaces;
 using VendingMachineApp.Models;
 
@@ -9,7 +9,7 @@ namespace VendingMachineApp.Services
     /// </summary>
     public class VendingMachine
     {
-        private decimal currentAmount = 0.0m;
+        private decimal currentAmount = ProductConstants.DefaultPrice;
         private readonly List<CoinType> coinReturn = new();
         private readonly IDisplay display;
         private Product? pendingProduct = null;
@@ -60,7 +60,7 @@ namespace VendingMachineApp.Services
                     display.DisplayMessage(message);
 
                     pendingProduct = null;
-                    display.UpdateAmount(currentAmount = 0.0m);
+                    display.UpdateAmount(currentAmount = ProductConstants.DefaultPrice);
                 }
                 else if (pendingProduct != null)
                 {
@@ -103,7 +103,7 @@ namespace VendingMachineApp.Services
                 }
                 display.DisplayMessage(message);
 
-                currentAmount = 0.0m;
+                currentAmount = ProductConstants.DefaultPrice;
                 display.UpdateAmount(currentAmount);
                 pendingProduct = null;
             }
