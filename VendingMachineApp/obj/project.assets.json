@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\VendingMachineApp\\VendingMachineApp\\VendingMachineApp.csproj",
+      "projectUniqueName": "C:\\Projects\\Project\\VendingMachineApp\\VendingMachineApp\\VendingMachineApp.csproj",
       "projectName": "VendingMachineApp",
-      "projectPath": "C:\\Projects\\VendingMachineApp\\VendingMachineApp\\VendingMachineApp.csproj",
+      "projectPath": "C:\\Projects\\Project\\VendingMachineApp\\VendingMachineApp\\VendingMachineApp.csproj",
       "packagesPath": "C:\\Users\\jchauhp3\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\VendingMachineApp\\VendingMachineApp\\obj\\",
+      "outputPath": "C:\\Projects\\Project\\VendingMachineApp\\VendingMachineApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
