@@ -47,7 +47,7 @@ Test classes:
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/vending-machine-app.git
+   git clone https://github.com/priyanshichauhan06/VendingMachineApp.git
    cd vending-machine-app
 
 ### 🖥 Sample Console Output
@@ -55,4 +55,5 @@ Test classes:
 
 ### 🧪 Unit Test Results
 <img width="1187" height="740" alt="image" src="https://github.com/user-attachments/assets/cf6b6c9c-d373-467b-a175-f2ac5471b1e2" />
+
 
